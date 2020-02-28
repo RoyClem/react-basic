@@ -5,6 +5,7 @@ import {increment, decrement, reset} from './actions'
 
 class Counter extends React.Component {
     
+  
   increment = () => {
     // we can call the `increment` prop,
     // and it will dispatch the action
